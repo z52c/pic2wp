@@ -201,6 +201,8 @@ void MainWindow::on_comboBoxTuChuang_currentIndexChanged(const QString &arg1)
         tuchuangKind=2;
     if(arg1==QString("s2tu"))
         tuchuangKind=3;
+    if(arg1==QString("vim.cn"))
+        tuchuangKind=4;
 }
 
 void MainWindow::on_pushButtonUpload_clicked()

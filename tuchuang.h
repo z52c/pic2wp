@@ -6,6 +6,7 @@
 #include "s6tu.h"
 #include "s2tu.h"
 #include "pic303.h"
+#include "vimcn.h"
 
 
 
@@ -43,7 +44,8 @@ private:
     s6tu *s6;
     s2tu *s2;
     pic303 *p303;
-    int kind;//使用哪类图床，默认0，sm.ms,1,s6tu,2,pic303
+    vimcn *vc;
+    int kind;//使用哪类图床，默认0，sm.ms,1,s6tu,2,pic303,3,s2tu,4,vimcn
     QStringList picFileList;//储存传入的图片文件路径列表
     int picNum;//传入的文件路径数目
     QStringList picLinkList;

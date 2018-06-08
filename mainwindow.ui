@@ -208,6 +208,11 @@
                  <string>sm.ms</string>
                 </property>
                </item>
+               <item>
+                <property name="text">
+                 <string>vim.cn</string>
+                </property>
+               </item>
               </widget>
              </item>
              <item>

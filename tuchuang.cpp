@@ -28,6 +28,10 @@ tuchuang::tuchuang(QObject *parent) : QObject(parent)
     connect(p303,SIGNAL(uploadError(QString)),this,SLOT(uploadFailed(QString)));
     connect(p303,SIGNAL(uploadSucess(QString)),this,SLOT(uploadSucess(QString)));
     connect(p303,SIGNAL(loginFinished(bool)),this,SLOT(pic303Logined(bool)));
+
+    vc=new vimcn();
+    connect(vc,SIGNAL(uploadError(QString)),this,SLOT(uploadFailed(QString)));
+    connect(vc,SIGNAL(uploadSucess(QString)),this,SLOT(uploadSucess(QString)));
 }
 
 void tuchuang::s6tuLogin(QString inUserName, QString inPWD)
@@ -68,6 +72,9 @@ void tuchuang::upload(QStringList inPicFileList,int inKind)
         break;
     case 3:
         s2->upload(picFileList.at(0));
+        break;
+    case 4:
+        vc->upload(picFileList.at(0));
         break;
     }
 }

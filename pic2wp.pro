@@ -40,7 +40,8 @@ SOURCES += \
     t66y.cpp \
     picdownloader.cpp \
     meitulu.cpp \
-    s2tu.cpp
+    s2tu.cpp \
+    vimcn.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -58,7 +59,8 @@ HEADERS += \
     t66y.h \
     picdownloader.h \
     meitulu.h \
-    s2tu.h
+    s2tu.h \
+    vimcn.h
 
 FORMS += \
         mainwindow.ui \
