@@ -3,7 +3,7 @@
  - 将图片站(你懂得)的文章搬运到wordpress站点中
  - wordpress中安装Featured Image From URL插件作为特色图插件
  - 图片站目前支持t66y.com（图片区）,meitulu.com
- - 图床目前支持s6tu.com,s2tu.com,pic303.com(目前有问题)，sm.ms
+ - 图床目前支持s6tu.com,s2tu.com,pic303.com(目前有问题)，sm.ms,img.vim-cn.com
  - 支持socks5代理
 
 ## 类
